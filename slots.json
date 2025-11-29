@@ -1,0 +1,106 @@
+[
+  {
+    "id": "A01",
+    "name": "A01",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A02",
+    "name": "A02",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A03",
+    "name": "A03",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A04",
+    "name": "A04",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A05",
+    "name": "A05",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A06",
+    "name": "A06",
+    "status": "AVAILABLE"
+  },
+  {
+    "id": "A07",
+    "name": "A07",
+    "status": "OCCUPIED",
+    "vehicleNumber": "qweqwe"
+  },
+  {
+    "id": "A08",
+    "name": "A08",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A09",
+    "name": "A09",
+    "status": "OCCUPIED",
+    "vehicleNumber": "1212312"
+  },
+  {
+    "id": "A10",
+    "name": "A10",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A11",
+    "name": "A11",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A12",
+    "name": "A12",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A13",
+    "name": "A13",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A14",
+    "name": "A14",
+    "status": "AVAILABLE"
+  },
+  {
+    "id": "A15",
+    "name": "A15",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A16",
+    "name": "A16",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A17",
+    "name": "A17",
+    "status": "OCCUPIED",
+    "vehicleNumber": "asdasd"
+  },
+  {
+    "id": "A18",
+    "name": "A18",
+    "status": "RESERVED"
+  },
+  {
+    "id": "A19",
+    "name": "A19",
+    "status": "OCCUPIED",
+    "vehicleNumber": "asdasd"
+  },
+  {
+    "id": "A20",
+    "name": "A20",
+    "status": "AVAILABLE"
+  }
+]
