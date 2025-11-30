@@ -24,6 +24,7 @@ public class ParkingDashboard extends JFrame {
     private JComboBox<String> slotSelect;
     private JTextField vehicleField;
     private JLabel selectedInfo;
+    private JButton logoutBtn; // Declare logout button
 
     // Action buttons
     private JButton parkBtn;
@@ -202,6 +203,26 @@ public class ParkingDashboard extends JFrame {
             } else {
                 toast("Failed to remove vehicle.");
             }
+        });
+
+
+        // --- Action buttons ---
+// In the constructor, add the logout button to the UI
+        logoutBtn = new JButton("Logout");
+        logoutBtn.setBackground(Color.RED); // You can customize the color
+        logoutBtn.setForeground(Color.WHITE);
+
+// Add the logout button to the layout (for example, at the bottom)
+        mg.gridy = 10; // Adjust this based on where you want it
+        mg.weighty = 0.0;
+        manageCard.add(logoutBtn, mg);
+
+// Wire the logout action
+        logoutBtn.addActionListener(e -> {
+            // Close current dashboard
+            dispose();
+            // Open the login window again (AdminLogin is assumed here)
+            SwingUtilities.invokeLater(() -> new AdminLogin().setVisible(true));
         });
     }
 
