@@ -6,7 +6,7 @@ public class Slot {
     public String id;              // e.g., "A01"
     public String name;            // same as id
     public SlotStatus status;      // AVAILABLE / RESERVED / OCCUPIED
-    public String vehicleNumber;   // set when OCCUPIED
+    public String vehicleNumber;// set when OCCUPIED
     public String reservedBy;      // optional for RESERVED
 
     public Slot() {}
